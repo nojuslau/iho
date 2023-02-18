@@ -9,12 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace iho.Views
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
+    //[XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
         public LoginPage()
         {
-            InitializeComponent();
+            //InitializeComponent();
             this.BindingContext = new LoginViewModel();
         }
     }
